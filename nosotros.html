@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocina sin Gluten</title>
+    <link rel="shortcut icon" href="./imag/favicon-black.png" type="image/x icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <!--Empieza contenedor de todo el contenido con div-->
+    <div class="contenedorPadre">
+
+        <!--    Empieza la nav  -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">      
+                    <img src="./imag/nuevo-logo.png" alt="logo cocina sin gluten" title="Logo Cocina sin gluten">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-3 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Recetas</a>
+                            <ul class="dropdown-menu bg-softpink" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="recetas/recetas-dulces.html">Recetas Dulces</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="recetas/recetas-saladas.html">Recetas Saladas</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="recetas/recetas-pan-masas.html">Recetas de Pan</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--    Termina la nav  -->
+
+        <!--   Empieza el header   -->   
+        <header id="header">
+            <!--Empieza carrusel-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imag/headers/header-1.jpg" class="d-block w-100" alt="pan sin gluten" title="Pan sin gluten">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imag/headers/header-2.jpg" class="d-block w-100" alt="Bizcochitos" title="Bizcochitos sin gluten">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imag/headers/header--3.jpg" class="d-block w-100" alt="Tostada con huevo y tocino" title="Tostada con huevo y tocino sin gluten">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!--Termina carrusel-->
+        </header>
+        <!--    Termina el header  -->
+
+
+        <!--Empieza el contenido principal-->
+        <main id="main">
+            <h1 class="titulos-comunes text-center mt-4">Acerca de nosotros</h1>
+            <section id="contenido">
+                <article class="margin-inline text-center">
+                    <div class="border-comun">
+                        <h2 class="text-center mid-titulos">Misión</h2>
+                        <p class="textos-comunes">Brindar opciones de alimentación saludable, sin gluten ni lácteos, para facilitar la vida cotidiana de las personas que,  por sus necesidades específicas, deben cumplir una alimentación restrictiva.</p>
+                    </div>
+                </article>
+                <article class="margin-inline text-center">
+                    <div class="border-comun">
+                        <h2 class="text-center mid-titulos">Visión</h2>
+                        <p class="textos-comunes">Comprometernos con la salud de las personas que busquen recetas que se adecuen a su dieta, con ingredientes debidamente analizados y preparaciones que eviten contaminación cruzada.</p>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <!--Termina el contenido principal-->
+
+        <!--    Empieza aside   -->
+        <aside id="aside">
+            <b class="text-center mid-titulos">Links de Interés</b>
+            <ul>
+                <li>
+                    <a href="">Enfermedad Celíaca</a>
+                </li>
+                <li>
+                    <a href="">Vivir Sin Gluten</a>
+                </li>
+                <li>
+                    <a href="">Certificación</a>
+                </li>
+                <li>
+                    <a href="">Eventos y Actividades</a>
+                </li>
+                <li>
+                    <a href="">Preguntas Frecuentes</a>
+                </li>
+                <li>
+                    <a href="">Novedades</a>
+                </li>
+            </ul>
+        </aside>
+        <!--    Termina aside-->
+
+        <!-- Empieza el footer -->
+        <footer id="footer">
+            <div>
+                <h4>Síguenos en nuestras redes sociales</h4>
+                <a href="https://www.coderhouse.cl/" target="_blank">
+                    <img src="./imag/logo facebook.png" alt="Síguenos en Facebook">
+                </a>
+                <a href="https://www.coderhouse.cl/" target="_blank">
+                    <img src="./imag/Logo instagram.png" alt="Síguenos en Instagram">
+                </a>
+            </div>
+        </footer>
+        <!-- Termina el footer -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </div>
+    <!--Termina contenedor de todo el contenido con div-->
+
+</body>
+</html>

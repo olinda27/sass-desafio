@@ -1,0 +1,193 @@
+@import "_vars.scss";
+@import "_breakpoints.scss";
+
+//Nav
+#navbar{
+    grid-area: navbar;
+    background-color: $color-fondos;
+    border-bottom: 2px solid $color-alternativo;
+}
+
+    #navbar img{
+        width: 200px;
+    }
+
+    #navbar a{
+        font-size: $text-base;
+        color: $color-titulos;
+    }
+
+    #navbar ul ul{
+        margin-top: 10px;
+        background-color: $color-fondos;
+        border: 2px solid $color-alternativo;
+    }
+
+#header{
+    grid-area: header;
+}
+
+#filtros{
+    grid-area: filtros;
+    background: linear-gradient(to bottom, $color-background, $color-fondos);
+    padding: 30px;
+    margin-top: 19px;
+    margin-bottom: 9px;
+    line-height: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color: $color-titulos;
+    margin-inline: 10px;
+    width: auto;
+
+}
+
+
+#filtros h4, ul{
+    font-size: $text-medium;
+}
+
+#main{
+    grid-area: main;
+}
+
+    #main a:hover{
+        color: rgb(0, 0, 0);
+    }
+
+#aside{
+    grid-area: aside;
+    background: linear-gradient(to bottom, $color-background, $color-fondos);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    margin-top: 19px;
+    margin-bottom: 9px;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-inline: 10px;
+    width: auto;
+}
+
+/*Estilo de links aside*/
+#aside ul{
+    list-style: none;
+}
+
+#aside ul li a{
+    text-decoration: none;
+    color: $color-titulos;
+    font-size: $text-medium;
+}
+
+#aside ul li:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+#aside ul li a:hover{
+    color: rgb(0, 0, 0);
+    transition: all 1s;
+}
+
+#footer{
+    grid-area: footer;
+    border-top: 2px $color-alternativo solid;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: $color-fondos;
+}
+
+    #footer{
+        font-size: $text-base;
+        color: $color-titulos;
+    }
+
+
+#size-figures{
+    width: 200px;
+    border-radius: 20px;
+}
+
+#size-figure-recetas{
+    width: 280px;
+    border-radius: 20px;
+}
+
+/*Termina contenedor padre y grid del body*/
+
+/*Clases comunes*/
+.border-comun{
+    border: dotted 2px $color-alternativo;
+    border-radius: 20px;    
+    margin: 20px;
+    padding: 5px;
+}
+
+.titulos-comunes{
+    font-size: $text-large;
+    color: $color-titulos;
+}
+
+.textos-comunes{
+    color: $color-textos;
+    font-size: $text-medium;
+    margin: 10px 10px;
+}
+
+.mid-titulos{
+    font-size: $text-tittle;
+    color: $color-titulos;
+    padding: 5px;
+}
+
+.filtrosTittle{
+    font-size: $text-tittle;
+    color: $color-titulos;
+}
+
+.margin-inline{
+    margin-inline: 30px;
+}
+
+.cajas-figures{
+    color: $color-titulos;
+    font-size: $text-base;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.titulo-receta{
+    color: $color-titulos;
+    font-size: $text-base;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*Contacto*/
+main section div form,iframe{
+    width: 390px;
+    height: 350px;
+    padding: 12px 20px;
+}
+
+main section div form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: $color-alternativo;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+

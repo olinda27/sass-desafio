@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/*Estilos generales*/
+
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+//Tamaño de letra
+$text-large:2.8rem;
+$text-medium:1.6rem;
+$text-tittle:2.3rem;
+$text-base:1.5rem;
+$text-small:1.2rem;
+
+//Colores
+$color-titulos:rgb(55,75,115);
+$color-textos:rgb(125,125,125);
+$color-fondos:rgba(255,241,237,0.8);
+$color-alternativo:rgb(255,129,151);
+$color-background: rgb(255, 129, 151, 0.8)

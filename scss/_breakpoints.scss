@@ -1,0 +1,86 @@
+.contenedorPadre{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "navbar"
+    "header"
+    "main"
+    "aside"
+    "footer";
+}
+
+@media (min-width: 768px){
+    .contenedorPadre{
+        grid-template-columns: 1fr;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "navbar"
+        "header"
+        "main" 
+        "aside"
+        "footer";
+    }
+
+    #contenido{
+        display: flex;      
+    }
+
+}
+
+@media (min-width: 1024px){
+    .contenedorPadre{
+        grid-template-columns: 85vw 15vw;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "navbar navbar"
+        "header header"
+        "main aside" 
+        "footer footer";
+    }
+    
+}
+
+.contenedorRecetas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "navbar"
+    "header"
+    "filtros"
+    "main"
+    "aside"
+    "footer";
+}
+
+@media (min-width: 768px){
+    .contenedorRecetas{
+        grid-template-columns: 10vw 90vw;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "navbar navbar"
+        "header header"
+        "filtros main" 
+        "aside aside"
+        "footer footer";
+    }
+
+    #contenido{
+        display: flex;      
+    }
+
+}
+
+@media (min-width: 1024px){
+    .contenedorRecetas{
+        grid-template-columns: 15vw 70vw 15vw;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "navbar navbar navbar"
+        "header header header"
+        "filtros main aside" 
+        "footer footer footer";
+    }
+
+}
